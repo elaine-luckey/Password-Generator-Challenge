@@ -1,6 +1,10 @@
+// Set character length to be an empty string
 var characterLength = "";
+
+// Set choiceArray to be an empty array -> this is to take the entry from the user and fill it into the array
 var choiceArray = [];
 
+// Defining all the array for special characters, lowercase, uppercase, and numbers
 var specialCharacterArray = ['!', '@', '#', '$', '%', '^', '&', '*', '+', '-', '_', '~', '`', '=', '?', '<', '>', ':', '/', '|'];
 var lowerCaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 var upperCaseArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -43,7 +47,7 @@ function getPrompts(){
   characterLength = parseInt(prompt("How many characters do you want your password to be? (8 - 128 characters"));
 
   if (isNaN(characterLength) || characterLength < 8 || characterLength > 128){
-    alert("Character length must be a number and must be 8-50 characters digits. Please try again.");
+    alert("Password length must be written in the form of a number and must be 8 - 128 characters digits. Please try again!");
     return false;
   }
 
