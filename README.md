@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=v2jfGo7ztm8
 Please refer to the LICENSE in the rep
 
 ## Link to Deployed Application
-
+https://elaine-luckey.github.io/Password-Generator-Challenge/
 
 ## Screenshot of Deployed Application
 
