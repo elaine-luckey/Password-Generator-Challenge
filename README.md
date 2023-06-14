@@ -15,7 +15,7 @@ Please refer to the LICENSE in the rep
 ## Link to Deployed Application
 https://elaine-luckey.github.io/Password-Generator-Challenge/
 
-## Screenshot of Deployed Application
+## Screenshots of Deployed Application
 
 ![password-generator](https://github.com/elaine-luckey/Password-Generator-Challenge/assets/134161776/eba9ffd5-0c7a-4d98-9d68-4f7b9150e89a)
 
